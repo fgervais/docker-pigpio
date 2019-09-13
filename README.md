@@ -29,5 +29,5 @@ At some point you should get
 
 ## Run
 
-docker run --rm -it --cap-add SYS_RAWIO --device /dev/mem --device /dev/vcio pigpio:v71
+docker run --rm --cap-add SYS_RAWIO --device /dev/mem --device /dev/vcio pigpio:v71
 
